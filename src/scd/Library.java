@@ -6,7 +6,7 @@ import java.util.List;
 public class Library {
 	List<String> books = new ArrayList<>();
 
-	public void addBokk(String title) {
+	public void addBook(String title) {
 		books.add(title);
 		System.out.println(title + "Book Added to Library.");
 	}
