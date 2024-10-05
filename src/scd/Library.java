@@ -14,4 +14,7 @@ public class Library {
 	public void listBooks() {
 		System.out.println("Books in Library: " + books);
 	}
+	public boolean searchBook(String bookName) {
+		return books.contains(bookName);
+		}
 }
